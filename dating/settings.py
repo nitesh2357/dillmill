@@ -76,10 +76,8 @@ WSGI_APPLICATION = 'dating.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'test',
-        'USER': 'quantum',
-        'PASSWORD': 'quantum',
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': 'mydatabase',
     }
 }
 
