@@ -1,0 +1,8 @@
+*.pyc
+*.swp
+.idea/
+.DS_Store
+media/*
+*/migrations/*
+collectedstatic/**
+!*/migrations/__init__.py
